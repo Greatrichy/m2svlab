@@ -33,4 +33,16 @@ Script example is in `scripts/user-data.sh`.
 ---
 
 ## Repository Structure
+M2SV-EC2-WebServer/
+│
+├── diagrams/        # Architecture diagrams (VPC, EC2 setup, etc.)
+├── screenshots/     # AWS Console screenshots
+├── scripts/         # User-data script and bucket policy JSON
+└── README.md        # Documentation
+
+- **diagrams/** → Contains architecture diagrams (e.g., EC2 + S3 setup).
+- **screenshots/** → Step-by-step AWS Console screenshots.
+- **scripts/** → User-data shell script and bucket policy JSON.
+- **README.md** → Documentation for the project.
+
 
